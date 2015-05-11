@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="100dp"
+    android:background="#fffaff00">
+
+    <TableRow>
+        <TextView
+        android:id="@+id/view_score"
+        android:text="Score: "
+        android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/timer"
+            android:paddingLeft="20dp"
+            android:text="Time: "
+            android:textSize="20dp"/>
+
+    </TableRow>
+
+    <TableRow android:paddingBottom="25dp" android:paddingTop="25dp">
+
+
+        <ImageButton
+            android:id = "@+id/button1"
+            android:src="@drawable/avocado_game"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="Clicked"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id = "@+id/button2"
+            android:src="@drawable/avocado_game"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="Clicked"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id = "@+id/button3"
+            android:src="@drawable/avocado_game"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="Clicked"
+            android:visibility="invisible"/>
+    </TableRow>
+
+    <TableRow android:paddingBottom="25dp" android:paddingTop="25dp">
+
+        <ImageButton
+            android:id = "@+id/button4"
+            android:src="@drawable/avocado_game"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="Clicked"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id = "@+id/button5"
+            android:src="@drawable/avocado_game"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="Clicked"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id = "@+id/button6"
+            android:src="@drawable/avocado_game"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="Clicked"
+            android:visibility="invisible"/>
+
+    </TableRow>
+
+    <TableRow android:paddingBottom="25dp" android:paddingTop="25dp">
+
+        <ImageButton
+            android:id = "@+id/button7"
+            android:src="@drawable/avocado_game"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="Clicked"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id = "@+id/button8"
+            android:src="@drawable/avocado_game"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="Clicked"
+            android:visibility="invisible"/>
+
+        <ImageButton
+            android:id = "@+id/button9"
+            android:src="@drawable/avocado_game"
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:onClick="Clicked"
+            android:visibility="invisible"/>
+
+
+    </TableRow>
+
+</TableLayout>
